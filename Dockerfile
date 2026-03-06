@@ -7,7 +7,7 @@ COPY ai_engineer/BesafeApi1.00/requirements.txt .
 
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY ai_engineer/BesafeApi1.00 ./BesafApi1.00
+COPY ai_engineer/BesafeApi1.00 ./BesafeApi1.00
 
 EXPOSE 8000
 
