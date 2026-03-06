@@ -9,7 +9,7 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy your FastAPI app into container
-COPY ai_engineer/BesafeApi1.00 ./Besafeapi
+COPY . .
 
 # Expose the port Railway uses
 EXPOSE 8000
